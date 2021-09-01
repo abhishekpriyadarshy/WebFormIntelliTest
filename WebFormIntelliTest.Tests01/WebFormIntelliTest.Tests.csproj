@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\ReportGenerator.4.8.12\build\netstandard2.0\ReportGenerator.props" Condition="Exists('..\packages\ReportGenerator.4.8.12\build\netstandard2.0\ReportGenerator.props')" />
   <Import Project="..\packages\NUnit3TestAdapter.4.0.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\packages\NUnit3TestAdapter.4.0.0\build\net35\NUnit3TestAdapter.props')" />
   <Import Project="..\packages\NUnit.3.13.2\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.13.2\build\NUnit.props')" />
   <PropertyGroup>
@@ -139,6 +140,9 @@
       <DependentUpon>Add_stateBLLTest.cs</DependentUpon>
     </Compile>
     <Compile Include="Add_stateDLLTest.cs" />
+    <Compile Include="Add_stateDLLTest.insertTest.g.cs">
+      <DependentUpon>Add_stateDLLTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ad_cityDLLTest.cs" />
     <Compile Include="Ad_cityDLLTest.insert.g.cs">
       <DependentUpon>Ad_cityDLLTest.cs</DependentUpon>
@@ -179,6 +183,10 @@
     <Compile Include="Doner_regBLLTest.insert.g.cs">
       <DependentUpon>Doner_regBLLTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Doner_regDLLTest.cs" />
+    <Compile Include="Doner_regDLLTest.insert.g.cs">
+      <DependentUpon>Doner_regDLLTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="IssueTest.Assign.g.cs">
       <DependentUpon>IssueTest.cs</DependentUpon>
     </Compile>
@@ -192,6 +200,9 @@
     </Compile>
     <Compile Include="OrganizationDLLTest.cs" />
     <Compile Include="OrganizationDLLTest.Delete.g.cs">
+      <DependentUpon>OrganizationDLLTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrganizationDLLTest.insert.g.cs">
       <DependentUpon>OrganizationDLLTest.cs</DependentUpon>
     </Compile>
     <Compile Include="OrganizationDLLTest.Update.g.cs">
@@ -264,10 +275,18 @@
     <Compile Include="Seeker_request_for_bloodBLLTest.S_nameSetTest.g.cs">
       <DependentUpon>Seeker_request_for_bloodBLLTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seeker_request_for_bloodDLLTest.cs" />
+    <Compile Include="Seeker_request_for_bloodDLLTest.insert.g.cs">
+      <DependentUpon>Seeker_request_for_bloodDLLTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="testDLLTest.cs" />
     <Compile Include="testDLLTest.insert.g.cs">
       <DependentUpon>testDLLTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserTest.Constructor.g.cs">
+      <DependentUpon>UserTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -311,6 +330,7 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\NUnit.3.13.2\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit.3.13.2\build\NUnit.props'))" />
     <Error Condition="!Exists('..\packages\NUnit3TestAdapter.4.0.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NUnit3TestAdapter.4.0.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\packages\ReportGenerator.4.8.12\build\netstandard2.0\ReportGenerator.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\ReportGenerator.4.8.12\build\netstandard2.0\ReportGenerator.props'))" />
   </Target>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
