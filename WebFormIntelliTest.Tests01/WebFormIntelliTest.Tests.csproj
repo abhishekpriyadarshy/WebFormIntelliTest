@@ -65,6 +65,11 @@
       <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
     </Reference>
     <Reference Include="System.Web" />
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WebFormIntelliTest\bin\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Routing" />
     <Reference Include="TestGenerator, Version=1.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\TestGenerator.1.0.4\lib\net461\TestGenerator.dll</HintPath>
     </Reference>
@@ -158,6 +163,10 @@
     <Compile Include="AuthHelperTest.SignOut.g.cs">
       <DependentUpon>AuthHelperTest.cs</DependentUpon>
     </Compile>
+    <Compile Include="BundleConfigTest.cs" />
+    <Compile Include="BundleConfigTest.RegisterBundles.g.cs">
+      <DependentUpon>BundleConfigTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="ContactTest.cs" />
     <Compile Include="ContactTest.PhotoUrlGet.g.cs">
       <DependentUpon>ContactTest.cs</DependentUpon>
@@ -210,6 +219,14 @@
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\PexAssemblyInfo.cs" />
+    <Compile Include="RouteConfigTest.cs" />
+    <Compile Include="RouteConfigTest.RegisterRoutes.g.cs">
+      <DependentUpon>RouteConfigTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Seeker_regBLLTest.cs" />
+    <Compile Include="Seeker_regBLLTest.insert.g.cs">
+      <DependentUpon>Seeker_regBLLTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Seeker_regDLLTest.cs" />
     <Compile Include="Seeker_regDLLTest.insert.g.cs">
       <DependentUpon>Seeker_regDLLTest.cs</DependentUpon>
@@ -278,6 +295,10 @@
     <Compile Include="Seeker_request_for_bloodDLLTest.cs" />
     <Compile Include="Seeker_request_for_bloodDLLTest.insert.g.cs">
       <DependentUpon>Seeker_request_for_bloodDLLTest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="testBLLTest.cs" />
+    <Compile Include="testBLLTest.insert.g.cs">
+      <DependentUpon>testBLLTest.cs</DependentUpon>
     </Compile>
     <Compile Include="testDLLTest.cs" />
     <Compile Include="testDLLTest.insert.g.cs">
