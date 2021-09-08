@@ -1,0 +1,12 @@
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\NUnit3.TestAdapter.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\NUnit3.TestAdapter.pdb
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\nunit.engine.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\nunit.engine.api.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\nunit.engine.core.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\testcentric.engine.metadata.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\WebFormIntelliTest.dll.config
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\b\WebFormIntelliTest\bin\WebFormIntelliTest.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\i\WebFormIntelliTest\Debug\WebFormIntelliTest.csproj.AssemblyReference.cache
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\i\WebFormIntelliTest\Debug\WebFormIntelliTest.csproj.CoreCompileInputs.cache
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\i\WebFormIntelliTest\Debug\WebFormIntelliTest.csproj.CopyComplete
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\.vs\WebFormIntelliTest\v17\lut\0\i\WebFormIntelliTest\Debug\WebFormIntelliTest.dll

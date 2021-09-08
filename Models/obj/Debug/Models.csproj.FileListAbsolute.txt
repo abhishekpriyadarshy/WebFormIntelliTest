@@ -1,0 +1,12 @@
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\bin\Debug\Models.dll
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\bin\Debug\Models.pdb
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\obj\Debug\Models.dll
+D:\Personal\Assignment\Unit Test Generator\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\Samples-858a664dd2a0d9f779dd8207e089bb78a31f2919\IntelliTest\Taxation\Models\obj\Debug\Models.pdb
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\bin\Debug\Models.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\bin\Debug\Models.pdb
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\obj\Debug\Models.dll
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\obj\Debug\Models.pdb
+D:\Personal\Assignment\Unit Test Generator\WebFormIntelliTest\Models\obj\Debug\Models.csproj.AssemblyReference.cache
